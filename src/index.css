@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0ea5e9;
+}
