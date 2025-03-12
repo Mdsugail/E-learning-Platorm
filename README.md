@@ -37,9 +37,7 @@ EduLearn is an interactive e-learning platform that offers courses designed by i
 | Routing         | React Router           |
 | Authentication  | Supabase (mocked with localStorage) |
 | CI/CD           | GitHub Actions         |
-| Containerization | Docker                 |
 | Deployment      | GitHub Pages / Vercel  |
-| Monitoring      | Prometheus, Grafana    |
 
 ### 📌 DevOps Workflow
 
