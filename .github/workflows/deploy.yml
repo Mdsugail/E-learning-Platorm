@@ -25,8 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        if: success()
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GH_PAT }}  # Use Personal Access Token
           publish_dir: ./dist  # Vite's default build output directory
